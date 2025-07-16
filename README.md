@@ -121,7 +121,7 @@ Deta Space
 ⚠️ Frontend and backend should be deployed separately.
 
 🙋‍♂️ Author
-Sachin Pandey
+Sachin Kumar 
 "I believe good work shouldn't scream — it should resonate."
 
 📄 License
