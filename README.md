@@ -4,13 +4,19 @@ A real-time collaborative document editor built using **React**, **Socket.IO**, 
 
 ---
 
+## 🖼️ Demo
+
+![Editor Demo](https://raw.githubusercontent.com/Sachin-pandey13/collaborative-document-editor-/main/editor.png)
+
+---
+
 ## 🚀 Features
 
-- 🔐 Google OAuth 2.0 authentication
-- 🧠 Real-time collaborative editing via WebSockets
-- 💾 Autosave every 2 seconds to MongoDB
-- ✍️ Rich-text editing using React Quill
-- 💻 Modern UI with gradients, hover animations & dynamic buttons
+- 🔐 Google OAuth 2.0 authentication  
+- 🧠 Real-time collaborative editing via WebSockets  
+- 💾 Autosave every 2 seconds to MongoDB  
+- ✍️ Rich-text editing using React Quill  
+- 💻 Modern UI with gradients, hover animations & dynamic buttons  
 
 ---
 
@@ -44,12 +50,12 @@ Edit
 
 ## 🔧 Tech Stack
 
-- **Frontend:** React, React Router, React Quill
-- **Backend:** Node.js, Express
-- **Database:** MongoDB Atlas with Mongoose
-- **Authentication:** Google OAuth
-- **Real-time Sync:** Socket.IO
-- **Styling:** CSS3 with animations & effects
+- **Frontend:** React, React Router, React Quill  
+- **Backend:** Node.js, Express  
+- **Database:** MongoDB Atlas with Mongoose  
+- **Authentication:** Google OAuth  
+- **Real-time Sync:** Socket.IO  
+- **Styling:** CSS3 with animations & effects  
 
 ---
 
@@ -58,15 +64,15 @@ Edit
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/collab-editor.git
-cd collab-editor
+git clone https://github.com/Sachin-pandey13/collaborative-document-editor-.git
+cd collaborative-document-editor-
 2. Set up Backend
 bash
 Copy
 Edit
 cd server
 npm install
-Create a .env file in the server folder:
+Create a .env file in the server/ folder:
 
 env
 Copy
@@ -84,9 +90,9 @@ npm start
 bash
 Copy
 Edit
-cd client
+cd ../client
 npm install
-Create a .env file in the client folder:
+Create a .env file in the client/ folder:
 
 env
 Copy
@@ -108,12 +114,11 @@ Changes made by any user are broadcast in real-time
 Document is saved every 2 seconds to MongoDB
 
 💻 Deployment (Free)
-You can deploy this project for free without credit card using:
+You can deploy this project for free (without credit card) using:
 
-👉 Deta Space
+Deta Space
 
-Frontend and backend should be deployed separately.
-
+⚠️ Frontend and backend should be deployed separately.
 
 🙋‍♂️ Author
 Sachin Pandey
